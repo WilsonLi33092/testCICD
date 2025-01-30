@@ -20,9 +20,11 @@ jobs:
       uses: actions/setup-go@v4
       with:
         go-version: '1.23.5'
+    - name: working directory
+      run: pwd
 
     - name: Build
       run: go build -v ./...
 
-    - name: Test Add
-      run: go test -v ./add/...
+    - name: Test
+      run: go test -v ./...
