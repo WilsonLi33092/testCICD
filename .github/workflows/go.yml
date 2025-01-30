@@ -24,11 +24,9 @@ jobs:
     - name: Build
       run: go build -v ./...
 
-    - name: Test Add
+    - name: Tests
       run: |
         cd add
         go test -v ./...
-    - name: Test Subtract
-      run: |
         cd ../subtract
         go test -v ./...
