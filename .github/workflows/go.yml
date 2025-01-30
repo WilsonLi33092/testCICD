@@ -28,3 +28,7 @@ jobs:
       run: |
         cd add
         go test -v ./...
+    - name: Test Subtract
+      run: |
+        cd subtract
+        go test -v ./...
