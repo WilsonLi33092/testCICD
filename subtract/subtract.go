@@ -1,5 +1,5 @@
 package subtract 
 
 func Subtract(x,y int) int {
-	return 0
+	return x-y
 }
